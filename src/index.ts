@@ -1,9 +1,6 @@
 import { OriginItem, TreeStore } from "./tree-store";
 
 const items: OriginItem[] = [
-  
-  
-  
   { id: 1, parent: "root" },
   { id: 2, parent: 1, type: "test" },
   { id: 3, parent: 1, type: "test" },
@@ -14,8 +11,7 @@ const items: OriginItem[] = [
   { id: 8, parent: 4, type: null },
   { id: 9, parent: 7 },
   { id: 10, parent: 9},
-  { id: 11, parent: 8},
-  
+  { id: 11, parent: 8}
 ];
 
 const ts = new TreeStore(items);

@@ -59,8 +59,6 @@ export class TreeStore {
     });
   }
 
-  // цензура частники
-
   // Получение всех элементов в исходном порядке
   getAll(): OriginItem[] {
     return Array.from(this.treeMap.values()).map((item) => item.data);
